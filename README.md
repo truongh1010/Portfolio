@@ -6,6 +6,7 @@ Welcome! This repository showcases a selection of my academic and personal proje
 
 ### 🧠 Artificial Intelligence
 Projects demonstrating core AI concepts and algorithms, such as:
+- Intelligent Agents
 - Search algorithms
 - Logic-based reasoning
 - Game-playing agents
