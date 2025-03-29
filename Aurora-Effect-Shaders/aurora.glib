@@ -1,0 +1,19 @@
+##OpenGL GLIB
+
+Ortho -1. 1. -1. 1.
+
+LookAt 0. 0. 2. 0. 0. 0. 0. 1. 0.
+
+Texture2D 0 nightsky.bmp
+
+Vertex aurora.vert
+Fragment aurora.frag
+Program Aurora \
+    uBackgroundTex 0 \
+    uNoiseScale <0. 0.5 10.> \
+    uTimeScale <0. 0.5 3.>  \
+    uFrequency <0. 0.2 3.> \
+    uWaveSpeed <0. 0.1 1.>  \
+    uIntensity <0. 0.2 1.>
+
+QuadXY 0.1 1.
